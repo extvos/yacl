@@ -3,6 +3,7 @@ yacl: Yet Another Configuration Language
 
 ## Format
 
+
 ```
 # comments ...
 <directive> [param1, ...];
@@ -18,4 +19,21 @@ yacl: Yet Another Configuration Language
 }
 ```
 
+
 ## Example
+
+```
+### This is an example
+set max_mem_size 100m;
+set max_file_size 2g;
+
+proxy example.org {
+    listen 80;
+    path /a/b/c {
+        return 404;
+    }
+}
+
+include another/config.yac;
+include multiple/configs-*.yac;
+```

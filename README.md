@@ -36,4 +36,5 @@ proxy example.org {
 }
 
 include another/config.yac;
+include multiple/configs-*.yac;
 ```
