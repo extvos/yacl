@@ -1,4 +1,4 @@
-ancl: Another Nginx like Configuration Language
+yacl: Yet Another Configuration Language
 =========================
 
 ## Format
