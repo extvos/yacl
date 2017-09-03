@@ -12,7 +12,8 @@ type Handler interface {
 
 // Config for parser.
 type Config struct {
-	Strict bool
+	Strict         bool
+	IncludeSupport bool
 }
 
 // Parser the exported struct for yaclgo parser.
